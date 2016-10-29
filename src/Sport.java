@@ -12,4 +12,12 @@ public class Sport {
 		this.numberOfPlayers = numberOfPlayers;
 		this.hasBall = hasBall;
 	}
+	
+	public String toString() {
+		return this.name;
+	}
+	
+	public int timePerPeriod(){
+		return time / numberOfPeriods;
+	}
 }
